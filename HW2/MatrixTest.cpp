@@ -42,23 +42,23 @@ int main() {
     cin >> pilihan;
 
    
-    cout << "Masukkan elemen-elemen matriks pertama (baris 1, kolom 1): ";
+    cout << "Masukkan angka matriks pertama (baris 1, kolom 1): ";
     cin >> matriks1[0][0];
-    cout << "Masukkan elemen-elemen matriks pertama (baris 1, kolom 2): ";
+    cout << "Masukkan angka matriks pertama (baris 1, kolom 2): ";
     cin >> matriks1[0][1];
-    cout << "Masukkan elemen-elemen matriks pertama (baris 2, kolom 1): ";
+    cout << "Masukkan angka matriks pertama (baris 2, kolom 1): ";
     cin >> matriks1[1][0];
-    cout << "Masukkan elemen-elemen matriks pertama (baris 2, elemen 2): ";
+    cout << "Masukkan angka matriks pertama (baris 2, elemen 2): ";
     cin >> matriks1[1][1];
 
     
-    cout << "Masukkan elemen-elemen matriks kedua (baris 1, kolom 1): ";
+    cout << "Masukkan angka matriks kedua (baris 1, kolom 1): ";
     cin >> matriks2[0][0];
-    cout << "Masukkan elemen-elemen matriks kedua (baris 1, kolom 2): ";
+    cout << "Masukkan angka matriks kedua (baris 1, kolom 2): ";
     cin >> matriks2[0][1];
-    cout << "Masukkan elemen-elemen matriks kedua (baris 2, kolom 1): ";
+    cout << "Masukkan angka matriks kedua (baris 2, kolom 1): ";
     cin >> matriks2[1][0];
-    cout << "Masukkan elemen-elemen matriks kedua (baris 2, kolom 2): ";
+    cout << "Masukkan angka matriks kedua (baris 2, kolom 2): ";
     cin >> matriks2[1][1];
 
     switch (pilihan) {
